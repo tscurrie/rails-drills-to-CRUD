@@ -125,6 +125,8 @@ end
 
 **NOTE** you don't need to add users and authentication. Actually, don't add authentication just to fulfill the CRUD requirement because that would be boring.
 
+You must **use bootstrap** or your own (thorough) custom styling.
+
 In addition, you are **required to use a gem or feature of Rails which hasn't been covered explicitly in class**.
 
 Finally, please create this rails app in a directory named: `crud_app`.
