@@ -7,6 +7,10 @@
 
 **NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least twice! (hopefully 3 times) Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
 
+Each time you do this, create your rails app in a new directory like `trial1` `trial2`.
+
+**NOTE**: See below for submission instructions.
+
 Resources:
 
 * [rails generate](http://guides.rubyonrails.org/command_line.html#rails-generate)
@@ -25,6 +29,9 @@ Resources:
 ---
 
 ## Part 1. Blog Time Trials
+
+* Create your rails app in a directory like `trial1`, `trial2`, `trial3`.
+
 ### Models
 
 Use the following when constructing a blog. You should not add styling or anything extra during time trials. This is barebones functionality.
@@ -118,6 +125,8 @@ end
 
 In addition, you are **required to use a gem or feature of Rails which hasn't been covered explicitly in class**.
 
+Finally, create this rails app in a directory named: `crud_app`.
+
 ## Example Gems or Rails Features
 
 * <a href="https://github.com/markets/awesome-ruby" target="_blank">GIANT LIST OF AWESOME GEMS</a>
@@ -127,6 +136,12 @@ In addition, you are **required to use a gem or feature of Rails which hasn't be
 * <a href="http://guides.rubyonrails.org/4_0_release_notes.html" target="_blank">Rails 4.0 Release Notes</a>
 * <a href="https://blog.engineyard.com/2013/new-in-rails-4" target="_blank">Rails 4 Stuff</a>
 
-## Getting started
+## Getting started & Submission
 
-Fork and clone this repository. Change the `readme.md` to reflect what your project does, and then submit a pull request back to this repo once you're done.
+Fork and clone this repository. Change the `readme.md` to reflect what your project does, and then submit a pull request back to this repo once you're done.  
+
+Your PR should include 4 directories/rails-apps:
+* trial1
+* trial2
+* trial3
+* crud-app
