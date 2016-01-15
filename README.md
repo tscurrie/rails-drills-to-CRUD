@@ -7,7 +7,7 @@
 
 **NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least twice! (hopefully 3 times) Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
 
-Each time you do this, create your rails app in a new directory like `trial1` `trial2`.
+Each time you do this, create your rails app in a new directory like `trial1`, `trial2` or `trial3`.
 
 **NOTE**: See below for submission instructions.
 
@@ -17,6 +17,9 @@ Resources:
 * [rails destroy](http://guides.rubyonrails.org/command_line.html#rails-destroy)
 * If you are not clear on how to edit a resource, take a look over this [section](http://guides.rubyonrails.org/getting_started.html#updating-articles) of the rails guides.
 * [Ffaker Gem](https://github.com/ffaker/ffaker) - for seeding the database.
+* [Rails Guides](http://guides.rubyonrails.org/) - everything you need to know to start up a new rails app.
+* [Views glossary](https://github.com/sf-wdi-25/notes/blob/master/week-07-rails/day-04-rails/dusk-views/glossary.md)
+* [auth tutorial](https://github.com/sf-wdi-25/public_library_app/blob/master/1_users_and_auth.md)
 
 ---
 ---
