@@ -5,7 +5,7 @@
 | :--- |
 | Your goal is to build this project from scratch at least three times this weekend.  Attempt to complete the following functionality within **three** hours with an eventual target time of under **two** hours. |
 
-**NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least twice! (hopefully 3 times) Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
+**NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least three times! Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
 
 Each time you do this, create your rails app in a new directory like `trial1`, `trial2` or `trial3`.
 
