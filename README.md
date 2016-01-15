@@ -40,11 +40,10 @@ Resources:
 
 Use the following when constructing a blog. You should not add styling or anything extra during time trials. This is barebones functionality.
 
-* We need 3 models
+* We need 2 models
   * a `user` model with the following attributes
     * `email`, `first_name`, `last_name`, `password_digest`
     * We need authentication in our `user` model, i.e. `User.confirm` and `secure_password`
-    * We need simple validations on our user, i.e. a unique `email`, email and password confirmations, and presence for both attributes.
   * an `article` model
     * `title` and `content`
     * simple validations on the title and content for presence
@@ -53,7 +52,6 @@ Use the following when constructing a blog. You should not add styling or anythi
 
 ### Controllers & Views
 
-* We need a `sites` controller with `index`, `about`, and `contact`
 * We need a `users` controller with all seven resources
 * We need an `articles` controller with all seven resources
 * We need a `sessions` controller with at least `new` and `create`.
@@ -67,7 +65,7 @@ With all of the above `users` should be able to do the following:
 * `users` can `login`
 * `users` can `logout`
 * `users` can view, create, and edit articles once logged in.
-* `users` can only `edit`, `update`, and `destroy` their own articles
+* `users` can only `edit`, `update`, and `destroy` their own articles - this might be a CHALLENGE.
 
 
 ### Partial It Up
