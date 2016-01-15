@@ -3,16 +3,16 @@
 
 | Objective |
 | :--- |
-| Your goal is to build this project from scratch at least three times this weekend.  Attempt to complete the following functionality within **three** hours with an eventual target time of under **one** hour. |
+| Your goal is to build this project from scratch at least three times this weekend.  Attempt to complete the following functionality within **three** hours with an eventual target time of under **two** hours. |
 
-**NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least twice! Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
+**NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least twice! (hopefully 3 times) Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
 
 Resources:
 
 * [rails generate](http://guides.rubyonrails.org/command_line.html#rails-generate)
 * [rails destroy](http://guides.rubyonrails.org/command_line.html#rails-destroy)
 * If you are not clear on how to edit a resource, take a look over this [section](http://guides.rubyonrails.org/getting_started.html#updating-articles) of the rails guides.
-* [Ffaker Gem](https://github.com/ffaker/ffaker) - for seeding the databse.
+* [Ffaker Gem](https://github.com/ffaker/ffaker) - for seeding the database.
 
 ---
 ---
@@ -25,29 +25,29 @@ Resources:
 ---
 
 ## Part 1. Blog Time Trials
-
 ### Models
 
 Use the following when constructing a blog. You should not add styling or anything extra during time trials. This is barebones functionality.
 
 * We need 3 models
-  * an `author` model with the following attributes
-    * `email`, `first_name`, `last_name`
+  * a `user` model with the following attributes
+    * `email`, `first_name`, `last_name`, `password_digest`
+    * We need authentication in our `user` model, i.e. `User.confirm` and `secure_password`
+    * We need simple validations on our user, i.e. a unique `email`, email and password confirmations, and presence for both attributes.
   * an `article` model
     * `title` and `content`
-  * a `comment` model
-    * with `content` attribute
-* We need three associations
-  * 1 to Many: `author` and `article`
-  * 1 to Many: `article` and `comment`
-  * 1 to Many: `author` and `comment`
-
+    * simple validations on the title and content for presence
+* We need one association
+  * 1 to Many: `user` and `article`
 
 ### Controllers & Views
 
-* We need a `authors` controller with all seven resources
+* We need a `sites` controller with `index`, `about`, and `contact`
+* We need a `users` controller with all seven resources
 * We need an `articles` controller with all seven resources
-* We need
+* We need a `sessions` controller with at least `new` and `create`.
+* We need `session_helper` methods for `login`, `logged_in?`, `logout`, and `current_user`.
+
 ### Authentication & Authorization
 
 With all of the above `users` should be able to do the following:
@@ -112,7 +112,7 @@ end
 
 <img src="https://cloud.githubusercontent.com/assets/1329385/11764306/6a85c4e8-a0df-11e5-8579-2f4886e1d121.gif">
 
-**Objective:** Make something in Rails using all the aspects of CRUD. It's up to you to come up with an idea, but it must have **a model, views, controllers, and routes** to `create`, `read`, `update` and `delete` at least one resource.
+**Objective:** Make something in Rails using all the aspects of CRUD. It's up to you to come up with an idea, but it must have **a model, views, controllers, and routes** to `create`, `read`, `update` and `delete` at least one resource.  You also need **at least one relationship**.
 
 **NOTE** you don't need to add users and authentication. Actually, don't add authentication just to fulfill the CRUD requirement because that would be boring.
 
