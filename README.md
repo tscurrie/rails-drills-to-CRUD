@@ -34,6 +34,7 @@ Resources:
 ## Part 1. Blog Time Trials
 
 * Create your rails app in a directory like `trial1`, `trial2`, `trial3`.
+* Use git properly: commit as you go!
 
 ### Models
 
