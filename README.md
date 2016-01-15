@@ -129,7 +129,7 @@ end
 
 In addition, you are **required to use a gem or feature of Rails which hasn't been covered explicitly in class**.
 
-Finally, create this rails app in a directory named: `crud_app`.
+Finally, please create this rails app in a directory named: `crud_app`.
 
 ## Example Gems or Rails Features
 
@@ -148,4 +148,4 @@ Your PR should include 4 directories/rails-apps:
 * trial1
 * trial2
 * trial3
-* crud-app
+* crud_app
